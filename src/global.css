@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  min-height: 100vh;
+  min-height: 100svh;
+  font-family: sans-serif;
+  @apply w-full flex flex-col text-gray-700;
+}
